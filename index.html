@@ -1,85 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<!-- Navbar -->
-<header>
-    <nav>
-        <h2>MyPortfolio</h2>
-        <ul id="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button id="menu-btn">☰</button>
-    </nav>
-</header>
-
-<!-- Hero Section -->
-<section id="home">
-    <h1>Hello, I'm <span>PHP Developer</span></h1>
-    <p>I build dynamic and scalable web applications.</p>
-    <button onclick="scrollToSection('contact')">Hire Me</button>
-</section>
-
-<!-- About -->
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a PHP Developer with experience in Laravel, WordPress, and REST APIs.
-        Passionate about building efficient backend systems.
-    </p>
-</section>
-
-<!-- Skills -->
-<section id="skills">
-    <h2>Skills</h2>
-    <div class="skill-box">
-        <span>PHP</span>
-        <span>Laravel</span>
-        <span>WordPress</span>
-        <span>MySQL</span>
-        <span>JavaScript</span>
-        <span>Git</span>
-    </div>
-</section>
-
-<!-- Projects -->
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-        <h3>E-commerce Website</h3>
-        <p>Built using Laravel with payment integration.</p>
-    </div>
-    <div class="project-card">
-        <h3>WordPress Custom Theme</h3>
-        <p>Developed a fully responsive custom theme.</p>
-    </div>
-</section>
-
-<!-- Contact -->
-<section id="contact">
-    <h2>Contact Me</h2>
-    <form onsubmit="return submitForm()">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-</section>
-
-<footer>
-    <p>© 2026 PHP Developer Portfolio</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Studio — Digital Agency, Mohali</title>
+    <meta name="description" content="Mohali-based digital agency with 5+ years of experience building websites, mobile apps, and digital brands across India." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
